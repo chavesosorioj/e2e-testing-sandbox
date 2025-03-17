@@ -27,5 +27,5 @@ The goal is to **demonstrate real-world automation testing skills** using indust
 
 ### 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/E2E-Test-Automation-Lab.git
-cd E2E-Test-Automation-Lab
+git clone https://github.com/chavesosorioj/e2e-testing-sandbox
+cd e2e-testing-sandbox
