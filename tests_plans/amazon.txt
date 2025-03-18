@@ -1,0 +1,43 @@
+This test plan outlines the End-to-End (E2E) testing strategy for automating test cases on Amazon’s e-commerce platform.
+The primary goal is to validate core functionalities, ensuring a seamless shopping experience for users through automated testing
+
+Objectives
+
+1 - Verify the login and account management functionalities.
+2 - Ensure the search, filtering, and product selection process is working correctly.
+3 - Validate the shopping cart and checkout flow.
+4 - Test the order history and user profile sections.
+5 - Ensure UI/UX consistency and performance under load.
+
+Scope
+
+User authentication (Sign Up, Login, Logout, Password Reset)
+Product search, filtering, and sorting
+Product page validation (Images, descriptions, pricing, reviews)
+Add to cart, remove from cart, and modify quantity
+Checkout process (Payment, Shipping, Order confirmation)
+Order history validation
+UI responsiveness and cross-browser compatibility
+API request validations
+
+Test Strategy
+
+Functional Testing
+* Validate each user journey from login to checkout.
+* Ensure product pages load correctly with accurate information.
+
+Automation Testing
+* Use Playwright for UI automation.
+* Automate regression testing for login, search, cart, and checkout.
+
+Performance Testing
+* Ensure website response time is under 3 seconds.
+
+API Testing
+* Use Postman to validate product search, cart updates, and order placements via API.
+
+Cross-Browser Testing
+* Run tests on Chrome, Firefox, Edge, and Safari to ensure compatibility.
+
+Security Testing
+* Validate login security (Incorrect password attempts, session expiration, etc.).
